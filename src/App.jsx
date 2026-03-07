@@ -1,12 +1,7 @@
-import React from 'react'
-import HeartConditionPredictionUI from './Components/HeartConditionPredictionUI'
+import HeartConditionPredictionUI from "./Components/HeartConditionPredictionUI";
 
-const App = () => {
-  return (
-    <div>
-      <HeartConditionPredictionUI />
-    </div>
-  )
+function App() {
+  return <HeartConditionPredictionUI />;
 }
 
-export default App
+export default App;
